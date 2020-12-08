@@ -2,6 +2,7 @@ import React from 'react';
 import logo from '../../static/public/images/logo.png';
 import Button from './Button'
 
+
 function Header() {
     return (
         <div className="App">

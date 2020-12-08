@@ -4,7 +4,7 @@ import Button from "./Button";
 
 function Landing(){
     return(
-        <div className="middle">
+        <div className="center">
           <h1>Create a resume that stands out</h1>
           <h4 class="fadeIn">Create a Resume that perfectly describes your skills and match job profile</h4>
           <Button text="Get Started for Free"></Button>

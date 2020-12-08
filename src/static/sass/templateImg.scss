@@ -1,4 +1,18 @@
-.tempalteImg{
+.templateContainer{
     height: 300px;
-    width: 150px;
+    width: 100%;
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
 }
+
+.imgContainer{
+    position: relative;
+}
+
+.tempalteImg{
+    height: 330px;
+    width: 210px;
+}
+

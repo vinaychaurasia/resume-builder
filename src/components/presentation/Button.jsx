@@ -4,7 +4,6 @@ import SelectTempPage from './SelectTempPage'
 import { NavLink, Link, Router } from 'react-router-dom'
 
 function Button(props) {
-
     const {text} = props;
 
     if (text === "Register") {
@@ -16,7 +15,7 @@ function Button(props) {
 
     } else if (text === "Get Started for Free") {
         return (
-            <Link to="/selectTempPage">
+            <Link to="/contact">
                 <button className="btn white started">{text}</button>
             </Link>
         )
